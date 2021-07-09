@@ -1,0 +1,55 @@
+@import '/src/assets/styles/base/_variables.scss';
+
+.transactions-content__title{
+  margin: 20px 40px;
+  color: $color-title-default;
+}
+
+.transactions-content__subtitle {
+  margin-left: 40px;
+  color: $color-subtitle-default;
+  font-weight: 600;
+}
+
+.second-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 40px;
+}
+
+.transactions-content {
+  width: 100%;
+  background-color: white;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+.second-content__btn {
+  width: 20%;
+  background-color: #1A74CC;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  height: 45px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead tr {
+  border-bottom: solid 1px black;
+}
+
+th, td {
+  padding: 20px;
+}
+
+.transactions-table {
+  width: 95%;
+  margin-top: 70px;
+  margin-left: 20px;
+  color: $color-subtitle-default;
+}

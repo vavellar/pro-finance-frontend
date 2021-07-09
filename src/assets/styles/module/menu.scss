@@ -1,0 +1,17 @@
+@import '/src/assets/styles/base/_variables.scss';
+
+.menu {
+    margin-top: 50px;
+}
+
+.menu a {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 40px;
+    text-decoration: none;
+    font-weight: 600;
+    white-space: nowrap;
+    color: $color-title-default;
+    font-size: 30px;
+    list-style: none;
+}

@@ -1,0 +1,30 @@
+.financial-summary {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+  .financial-summary__revenues, .financial-summary__expense, .financial-summary__result {
+    margin: 0px 70px
+  }
+
+  .financial-summary__text {
+    color: $color-subtitle-default;
+    font-size: 18px;
+  }
+
+  .financial-summary__value {
+    color: $color-title-default;
+    font-size: 24px;
+  }
+
+  .financial-summary__item {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .financial-summary__title {
+    color: $color-title-default;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,19 @@
+.modal-card {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: -1;
+  // position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: beige;
+  margin-bottom: 50px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+}

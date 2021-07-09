@@ -1,0 +1,11 @@
+#app {
+  display: grid; 
+  gap: 0px 0px; 
+  grid-template-columns: 1fr 3fr;
+  height: 112vh;
+  width: 210vh;
+  grid-template-areas: 
+    "menu main"; 
+}
+.menu { grid-area: menu; }
+.main { grid-area: main; }
