@@ -1,5 +1,5 @@
 <template>
-  <div style="height: 220px; width: 95%; margin-left: 50px">
+  <div>
     <canvas id="lineChart"/>
   </div>
 </template>

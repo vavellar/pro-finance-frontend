@@ -1,38 +1,26 @@
 @import '/src/assets/styles/base/_variables';
 
-.header {
-    background-color: #FFFFFF;
-    margin-top: 30px;
-    margin-right: 20px;
-    border-radius: 25px;
-}
-
-#app {
-    background-color: #EAEEEA;
-}
-
-.main {
+.main-grid {
     display: flex;
     flex-direction: column;
-    margin-right: 20px;
+    padding: 3rem 2rem;
 }
 
-.main-center {
+.dashboard__categories  {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
+}
+
+.dashboard__categories > * {
+    width: 47%;
 }
 
 .investiments-card, .spending-card {
     background-color: white;
-    width: 48%;
-    height: 350px;
-    margin-top: 20px;
-    border-radius: 25px;
+    border-radius: 2rem;
   }
 
   .investiments-card__title, .speding-card__title, .monthly-summary__title{
-    padding: 15px 30px;
     color: $color-title-default;
     font-weight: 400;
   }

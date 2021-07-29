@@ -1,7 +1,7 @@
 <template>
   <div class="modal-card">
     <div class="modal-header">
-      <h2 class=modal-header__title>Adicione uma nova transação</h2>
+      <h2 class="modal-header__title title-1">Adicione uma nova transação</h2>
       <button class="modal-header__button" @click="closeModal">X</button>
     </div>
     <div class="modal-body">

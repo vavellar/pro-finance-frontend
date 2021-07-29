@@ -1,9 +1,9 @@
 <template>
-  <div class="financial-summary">
+  <div class="financial-summary card">
       <div class="financial-summary__item">
-        <h2 class="financial-summary__title">Resumo finânceiro</h2>
+        <h2 class="financial-summary__title title-1">Resumo finânceiro</h2>
       </div>
-      <div class="financial-summary__item">
+      <div class="financial-summary__item py-20 ">
           <div class="financial-summary__revenues">
             <p class="financial-summary__value">
                 {{ value | formatMoney}}

@@ -1,15 +1,15 @@
 <template>
-  <div id="home-content">
+  <div class="dashboard">
     <div class="container">
-      <div class="header">
+      <div class="dashboard__indicators">
         <FinancialSummary/>
       </div>
-      <div class="main">
-        <div class="main-center">
+      <div class="dashboard__categories">
           <Investiments/>
           <Spending/>
-        </div>
-          <MonthlySummary/>
+      </div>
+      <div class="dashboard__summary">
+        <MonthlySummary/>
       </div>
     </div>
     <!-- <router-view/> -->

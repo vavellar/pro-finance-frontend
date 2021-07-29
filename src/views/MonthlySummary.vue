@@ -1,6 +1,6 @@
 <template>
-  <div class="monthly-summary">
-    <h2 class="monthly-summary__title">Resumo mês a mês</h2>
+  <div class="monthly-summary p-20">
+    <h2 class="monthly-summary__title title-1">Resumo mês a mês</h2>
     <div class="graph">
       <LineChart
       :data="lancamentos"

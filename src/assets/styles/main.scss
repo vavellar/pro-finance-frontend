@@ -1,15 +1,20 @@
-@import '/src/assets/styles/layout/grid.scss';
-@import '/src/assets/styles/module/transactions.scss';
-@import '/src/assets/styles/module/app.scss';
-@import '/src/assets/styles/base/reset.scss';
-@import '/src/assets/styles/module/menu.scss';
+@import 'src/assets/styles/base/_tipography.scss';
+@import '/src/assets/styles/base/_reset.scss';
 @import '/src/assets/styles/base/_variables.scss';
-@import '/src/assets/styles/layout/flexbox.scss';
+@import '/src/assets/styles/base/_spacing.scss';
+
+@import '/src/assets/styles/module/menu.scss';
 @import '/src/assets/styles/module/financial_summary.scss';
-@import '/src/assets/styles/layout/header.scss';
 @import '/src/assets/styles/module/spending.scss';
-@import 'src/assets/styles/module/Investiments.scss';
-@import 'src/assets/styles/module/monthlySummary.scss';
+@import 'src/assets/styles/module/investiments.scss';
+@import 'src/assets/styles/module/monthly_summary.scss';
 @import 'src/assets/styles/module/home.scss';
 @import 'src/assets/styles/module/transactions.scss';
-@import 'src/assets/styles/module/modal.scss'
+@import 'src/assets/styles/module/modal.scss';
+@import '/src/assets/styles/module/transactions.scss';
+@import '/src/assets/styles/module/app.scss';
+@import '/src/assets/styles/module/card.scss';
+
+@import '/src/assets/styles/layout/grid.scss';
+@import '/src/assets/styles/layout/flexbox.scss';
+@import '/src/assets/styles/layout/header.scss';

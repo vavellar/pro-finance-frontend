@@ -1,11 +1,11 @@
 <template>
-  <div id="app">
-    <div class="menu">
+  <div class="app">
+    <nav class="menu">
       <Menu/>
-    </div>
-    <div class="main">
+    </nav>
+    <main class="main-grid">
       <router-view/>
-    </div>
+    </main>
   </div>
 </template>
 

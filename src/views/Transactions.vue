@@ -1,7 +1,7 @@
 <template>
   <div class="transactions-content">
-    <h2 class="transactions-content__title">Transações</h2>
-    <h4 class="transactions-content__subtitle">Data da transação</h4>
+    <h2 class="transactions-content__title title-1">Transações</h2>
+    <h4 class="transactions-content__subtitle subtitle-1">Data da transação</h4>
     <div class="second-content">
       <div class="second-content__calendar">
         <Fullcalendar/>
@@ -19,19 +19,17 @@
       </thead>
       <ul class="teste">
         <li v-for="transaction in transactions" :key="transaction">
-          {{ transaction.date}}
+          {{ transaction.$data }}
         </li>
       </ul>
     </table>
-    <Modal v-if="visible"/>
+    <!-- <Modal v-if="visible"/> -->
   </div>
 </template>
 
 <script lang="ts">
 import Modal from './Modal.vue'
 import { Component, Vue } from 'vue-property-decorator'
-import Fullcalendar from '@fullcalendar/vue'
-// import DayGridPlugin from "@fullcalendar/daygrid"
 
 @Component({
   name: 'Transactions',
@@ -42,9 +40,16 @@ import Fullcalendar from '@fullcalendar/vue'
 
 export default class Transactions extends Vue {
   visible = false
+  transactions = []
 
   newTransaction (): void {
-    this.visible = true
+    console.log(this.transactions)
+    this.transactions.push({
+      categoria: 'Nao sei',
+      data: '22',
+      valor: 50,
+      descricao: 'nao sei'
+    })
   }
 }
 

@@ -1,13 +1,13 @@
 <template>
   <nav class="menu">
-    <ul>
+    <ul class="menu__list">
       <router-link to="/" tag="li" active-class="active" exact>
-          <a>Resumo finânceiro</a>
+          <a class="menu__item">Resumo finânceiro</a>
       </router-link>
       <router-link to="/transacoes" tag="li" active-class="active">
-          <a>Transacoes</a>
+          <a class="menu__item">Transacoes</a>
       </router-link>
-          <a>Investimentos</a>
+          <a class="menu__item">Investimentos</a>
     </ul>
   </nav>
 </template>

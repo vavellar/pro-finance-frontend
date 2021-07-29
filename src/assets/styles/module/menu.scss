@@ -1,17 +1,21 @@
 @import '/src/assets/styles/base/_variables.scss';
 
 .menu {
-    margin-top: 50px;
+    padding: 3rem 1rem;
 }
 
-.menu a {
+.menu__item {
     display: flex;
     justify-content: flex-start;
-    padding: 15px 40px;
     text-decoration: none;
     font-weight: 600;
     white-space: nowrap;
     color: $color-title-default;
-    font-size: 30px;
+    font-size: 3rem;
     list-style: none;
+    margin: 2rem 0;
+}
+
+.menu__item:hover {
+    color: #0669CB;
 }

@@ -1,11 +1,17 @@
-#app {
-  display: grid; 
-  gap: 0px 0px; 
-  grid-template-columns: 1fr 3fr;
-  height: 112vh;
-  width: 210vh;
-  grid-template-areas: 
-    "menu main"; 
+// #app {
+//   display: grid; 
+//   gap: 0px 0px; 
+//   // grid-template-columns: 1fr 3fr;
+//   grid-template-areas: 
+//     "menu main"; 
+// }
+// .menu { grid-area: menu; }
+// .main { grid-area: main; }
+
+.app {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
 }
-.menu { grid-area: menu; }
-.main { grid-area: main; }
+  
+// .menu { grid-area: 1 / 1 / 2 / 2; }
+// .main { grid-area: 1 / 2 / 2 / 3; }
